@@ -1,4 +1,4 @@
-package inheritance;
+package oopinheritence;
 
 public class Cat extends Animal {
 

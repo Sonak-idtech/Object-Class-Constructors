@@ -1,6 +1,6 @@
-package inheritance;
+package oopinheritence;
 
-public class Developer extends ClassEmployee{
+public class Developer extends ClassEmployee {
 
     @Override
     public void calculateSalary(){

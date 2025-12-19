@@ -1,6 +1,6 @@
-import inheritance.*;
-import objectclassconstructors.Address;
-import objectclassconstructors.Rectangle;
+import inheritance.ClassEmployee;
+import inheritance.Developer;
+import inheritance.Manager;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

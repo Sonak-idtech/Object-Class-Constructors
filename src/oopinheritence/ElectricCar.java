@@ -1,6 +1,6 @@
-package inheritance;
+package oopinheritence;
 
-public class ElectricCar extends Car{
+public class ElectricCar extends Car {
     public void voltage(){
         System.out.println("Voltage of Car");
     }

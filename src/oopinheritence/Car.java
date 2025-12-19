@@ -1,6 +1,6 @@
-package inheritance;
+package oopinheritence;
 
-public class Car  extends Vehicle{
+public class Car  extends Vehicle {
 
     public void color(){
         System.out.println("Color of Car");

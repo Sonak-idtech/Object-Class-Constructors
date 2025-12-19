@@ -1,5 +1,5 @@
+import inheritance.*;
 import objectclassconstructors.Address;
-import objectclassconstructors.Employee;
 import objectclassconstructors.Rectangle;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -53,7 +53,7 @@ public class Main {
         System.out.println(secondrectangle.getArea());
         System.out.println(secondrectangle.getPerimeter());*/
 
-        Address firstaddress = new Address("Khocali", "Baku", "1000");
+        /*Address firstaddress = new Address("Khocali", "Baku", "1000");
         Address secondaddress = new Address("Broadway", "New York", "34321");
         Address thirdaddress = new Address("Fifth Avenue", "New York", "865");
         Employee firstemployee = new Employee("Sona",1000,firstaddress);
@@ -62,8 +62,51 @@ public class Main {
 
         System.out.println(firstemployee);
         System.out.println(secondemployee);
-        System.out.println(thirdemployee);
-        //~/Desktop/Java Foundation/ldTechJava/StudentAppIDTech/src/repository/StudentRepository.java
+        System.out.println(thirdemployee);*/
+
+       // Inheritance
+        //1
+        /*Animal cat = new Cat();
+        Animal dog = new Dog();
+        cat.sound();
+        dog.sound();*/
+        //2
+        /*Person person = new Employee("sona", 26, 2345);
+        Person person1 = new Person("Sona",26);
+        System.out.println(person);
+        System.out.println(person1);*/
+        //3
+        /*Shape shape1 = new Circle();
+        Shape shape2 = new Square();
+        shape1.area();
+        shape2.area();*/
+        //4
+        /*Vehicle vehicle = new Vehicle();
+        vehicle.speed();
+
+        Vehicle car = new Car();
+        car.speed();
+
+        Car car2 = new Car();
+        car2.color();
+
+        Car electric = new ElectricCar();
+        electric.speed();
+        electric.color();
+
+        ElectricCar electric2 = new ElectricCar();
+        electric2.color();
+        electric2.speed();*/
+        //5
+        ClassEmployee[] employees = new ClassEmployee[3];
+        employees[0] = new ClassEmployee();
+        employees[1] = new Developer();
+        employees[2] = new Manager();
+
+        for (ClassEmployee employee : employees) {
+            employee.calculateSalary();
+        }
+
     }
 
 }

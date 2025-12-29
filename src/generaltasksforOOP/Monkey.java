@@ -1,0 +1,10 @@
+package generaltasksforOOP;
+
+public class Monkey  implements Animal{
+
+    @Override
+    public void makeSound() {
+        System.out.println("Monkey make sound");
+    }
+
+}
